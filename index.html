@@ -918,52 +918,67 @@ footer strong { color: #f5a623; }
     </div>
 
     <!-- PROJECT 6 -->
-    <div class="project-card fade-in">
-      <div class="project-header">
-        <div class="project-num">06</div>
-        <div>
-          <div class="project-tag">Google Tools · Digitization</div>
-          <div class="project-title">Paperless Digital Meter Reading System for Substation Efficiency and Cost Reduction</div>
-        </div>
-      </div>
-      <div class="project-images two-col">
-        <div class="img-wrap">
-          <span class="img-label">Before</span>
-          <img src="Image9.png" alt="Meter Reading Before">
-        </div>
-        <div class="img-wrap">
-          <span class="img-label">After</span>
-          <img src="Image10.png" alt="Meter Reading After">
-        </div>
-      </div>
-      <button class="accordion-toggle" onclick="toggleAcc(this)">
-        <span>View Details - Situation, Development & Benefits</span>
-        <span class="accordion-icon">+</span>
-      </button>
-      <div class="accordion-body">
-        <div class="project-body">
-          <h3>Current Situation</h3>
-          <p>Existing manual meter reading consumed around 60 minutes per cycle using paper, pen, and manual Excel entry. Average monthly stationery cost was <strong style="color:#dc2626">1,374 Tk</strong> with frequent human errors and delayed access to critical data.</p>
-          <h3>Development</h3>
-          <div class="dev-list">
-            <span class="chip">Google Forms</span>
-            <span class="chip">Google Sites</span>
-            <span class="chip">Google Spreadsheets</span>
-            <span class="chip">Real-Time Data Storage</span>
-          </div>
-          <p style="margin-top:0.75rem;">Reduced meter reading time from <strong style="color:#dc2626">60 minutes</strong> to <strong style="color:#16a34a">10 minutes</strong> per cycle. Fully paperless. Expansion across all factories could save up to <strong style="color:#16a34a">6,870 Tk/month</strong>.</p>
-          <h3>Key Benefits</h3>
-          <div class="benefits-grid">
-            <div class="benefit-item">Cost Savings - Monthly expense reduced to 0 Tk</div>
-            <div class="benefit-item">83% Time Reduction per meter reading cycle</div>
-            <div class="benefit-item">Real-Time Access - Instant data availability</div>
-            <div class="benefit-item">Error Elimination - Zero manual entry mistakes</div>
-            <div class="benefit-item">Environmentally Friendly - Fully paperless</div>
-            <div class="benefit-item">Scalable across all factory substations</div>
-          </div>
-        </div>
-      </div>
+    ```html
+<div class="project-card fade-in">
+  <div class="project-header">
+    <div class="project-num">06</div>
+    <div>
+      <div class="project-tag">Industrial Automation · HACCP Compliance</div>
+      <div class="project-title">Metal Detector Signal Integration with Packaging Machine Interlock and Audio Alarm for HACCP CCP Control</div>
     </div>
+  </div>
+
+  <div class="project-images two-col">
+    <div class="img-wrap">
+      <span class="img-label">Before</span>
+      <img src="Image13.png" alt="Metal Detector Existing System">
+    </div>
+    <div class="img-wrap">
+      <span class="img-label">After</span>
+      <img src="Image14.png" alt="Integrated Interlock and Alarm System">
+    </div>
+  </div>
+
+  <button class="accordion-toggle" onclick="toggleAcc(this)">
+    <span>View Details - Situation, Development & Benefits</span>
+    <span class="accordion-icon">+</span>
+  </button>
+
+  <div class="accordion-body">
+    <div class="project-body">
+
+      <h3>Current Situation</h3>
+      <p>
+        The existing metal detector on the Koreana packaging line provided only a visual indicator during metal contamination detection. Operators could easily miss the display signal during production, making contaminated packets difficult to identify and trace. Since the metal detector serves as a <strong style="color:#dc2626">HACCP Critical Control Point (CCP)</strong>, missed detections created significant food safety, compliance, and audit risks.
+      </p>
+
+      <h3>Development</h3>
+      <div class="dev-list">
+        <span class="chip">Signal Analysis</span>
+        <span class="chip">24V DC Relay Logic</span>
+        <span class="chip">Machine Interlock</span>
+        <span class="chip">Industrial Automation</span>
+      </div>
+
+      <p style="margin-top:0.75rem;">
+        Analyzed the metal detector's indicator signal voltage and converted it into a functional control input. Implemented a relay-based interlock system using two DC 24V relays: one relay automatically stopped the packaging machine through the horizontal jaw control circuit, while the second relay activated an audible alarm. The solution enabled immediate response to contamination events without requiring external vendor support.
+      </p>
+
+      <h3>Key Benefits</h3>
+      <div class="benefits-grid">
+        <div class="benefit-item">Automatic Machine Stop after metal contamination detection</div>
+        <div class="benefit-item">Audible Alarm for immediate operator awareness</div>
+        <div class="benefit-item">Improved Traceability of contaminated packets</div>
+        <div class="benefit-item">Enhanced HACCP CCP compliance and audit readiness</div>
+        <div class="benefit-item">Reduced dependency on foreign technical support</div>
+        <div class="benefit-item">Approx. 100,000 Tk service cost avoidance</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+```
+
 
     <!-- PROJECT 7 -->
     <div class="project-card fade-in">
